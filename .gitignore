@@ -1,0 +1,81 @@
+# ===============================
+# 🌐 FRONTEND (React + TypeScript)
+# ===============================
+safepass_frontend/node_modules/
+safepass_frontend/dist/
+safepass_frontend/build/
+safepass_frontend/.env
+safepass_frontend/.env.local
+safepass_frontend/.env.development.local
+safepass_frontend/.env.test.local
+safepass_frontend/.env.production.local
+
+# TypeScript build info
+safepass_frontend/*.tsbuildinfo
+
+# Test coverage
+safepass_frontend/coverage/
+
+# Logs
+safepass_frontend/*.log
+
+# ===============================
+# ⚙️ BACKEND (Python + FastAPI)
+# ===============================
+safepass_backend/__pycache__/
+safepass_backend/*.pyc
+safepass_backend/*.pyo
+safepass_backend/*.pyd
+safepass_backend/*.db
+safepass_backend/*.sqlite3
+
+# Virtual environments
+safepass_backend/venv/
+safepass_backend/env/
+safepass_backend/.venv/
+
+# Dependency / build files
+safepass_backend/pip-wheel-metadata/
+safepass_backend/*.egg-info/
+safepass_backend/.eggs/
+safepass_backend/.mypy_cache/
+safepass_backend/.pytest_cache/
+safepass_backend/.tox/
+safepass_backend/coverage.xml
+safepass_backend/htmlcov/
+safepass_backend/*.coverage
+
+# Backend env files
+safepass_backend/.env
+safepass_backend/.env.local
+
+# ===============================
+# 🧰 Общие файлы / IDE / System
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.bak
+*.cache
+*.pid
+*.seed
+*.log
+Thumbs.db
+.DS_Store
+Icon?
+desktop.ini
+
+# ===============================
+# 🐳 Docker (если используется)
+# ===============================
+docker-compose.override.yml
+docker/*.log
+
+# ===============================
+# 🧪 Прочие временные директории
+# ===============================
+temp/
+tmp/
+test_output/
