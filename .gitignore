@@ -1,9 +1,15 @@
 # ===============================
-# 🌐 FRONTEND (React + TypeScript)
+# 🌐 FRONTEND (Vite + TypeScript)
 # ===============================
+
+# Node modules
 safepass_frontend/node_modules/
+
+# Vite build / cache
 safepass_frontend/dist/
-safepass_frontend/build/
+safepass_frontend/.vite/
+
+# Environment variables
 safepass_frontend/.env
 safepass_frontend/.env.local
 safepass_frontend/.env.development.local
@@ -22,10 +28,13 @@ safepass_frontend/*.log
 # ===============================
 # ⚙️ BACKEND (Python + FastAPI)
 # ===============================
+
+# Python cache
 safepass_backend/__pycache__/
-safepass_backend/*.pyc
-safepass_backend/*.pyo
+safepass_backend/*.py[cod]
 safepass_backend/*.pyd
+
+# Database
 safepass_backend/*.db
 safepass_backend/*.sqlite3
 
